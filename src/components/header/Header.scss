@@ -1,0 +1,64 @@
+a{
+  text-decoration: none;
+  color: #fff;
+}
+ul,ol{
+  list-style: none;
+}
+.header{
+  width: 100%;
+  height: 140px;
+  background-image: url(../../assets/images/Rectangle1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.df_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 44px;
+  position: relative;
+
+  .left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav__list{
+    padding-top: 10px;
+    display: block;
+    width: 450px;
+    margin-left: 77px;
+  }
+  ul{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.shop__btns{
+  li{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 40px 10px 0 10px;
+    background-color: #fff;
+  }
+  .heart{
+    right: 120px;
+  }
+  .heart1{
+    padding-top: 38px;
+    right: 60px;
+  }
+  .heart2{
+    img{
+     color:linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+     &:hover{
+      color:linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+      transition: 0.5s;
+     }
+    }
+  }
+}
