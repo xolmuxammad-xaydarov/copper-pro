@@ -202,9 +202,9 @@ function Home() {
                         </div>
                         <div className="mainn">
 
-                            <div className="main__inner container">
+                            <div className="main__inner">
                                 <h2>Лучшие продажи</h2>
-                                <div className='inner'>
+                                <div className='inner container'>
 
                                     <div ref={slideree} className="main__list">
                                         <div>
@@ -283,9 +283,9 @@ function Home() {
                             </div>
                         </div>
 
-                        <div className="main__inner1 container">
+                        <div className="main__inner1">
                             <h2>НОВИНКИ</h2>
-                            <div className="inner1">
+                            <div className="inner1 container">
                                 <div className="main__list1" ref={slideTwo}>
                                     <div>
                                         <img src={Sariq1} alt="" />
@@ -354,9 +354,9 @@ function Home() {
 
                         </div>
 
-                        <div className="main__inner2 container">
+                        <div className="main__inner2 ">
                             <h2>МЫ РЕКОМЕНДУЕМ</h2>
-                            <div className="inner2">
+                            <div className="inner2 container">
                                 <div className="main__list2" ref={slideThree}>
                                     <div>
                                         <img src={Sariq1} alt="" />
@@ -417,7 +417,7 @@ function Home() {
 
                             <div className="main__inner3">
                                 <h2>СКИДКИ</h2>
-                                <div className="inner3">
+                                <div className="inner3 container">
                                     <div className="main__list3" ref={slideFour}>
                                         <div>
                                             <img src={Sariq1} alt="" />

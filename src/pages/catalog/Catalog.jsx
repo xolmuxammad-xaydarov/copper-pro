@@ -1,5 +1,6 @@
 import React from 'react'
 import './Catalog.scss'
+import { Link } from 'react-router-dom';
 
 function Catalog() {
   return (
@@ -8,7 +9,7 @@ function Catalog() {
 
         <div className="container">
 
-            <p id="katalog1">Главная / <span>Каталог</span></p>
+            <p id="katalog1"><Link to='/'>Главная / </Link><span>Каталог</span></p>
             <p id="katalog2">Каталог</p>         
           <div id="cards_one_wrapper">
 
