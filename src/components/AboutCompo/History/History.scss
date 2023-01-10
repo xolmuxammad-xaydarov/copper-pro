@@ -1,0 +1,47 @@
+@import '../../../sass/variables.scss';
+
+.transform{
+    position: relative;
+    h2{
+        position: absolute;
+        bottom: -350px;
+        left: -100px;
+        font-weight: 400;
+        font-size: 115px;
+        line-height: 74.9%;
+        color: #000000;
+        transform: rotate(-90deg);
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.history{
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 105.9%;
+    }
+    &-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        div{
+            p{
+                width: 445px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 182.4%;
+                margin: 0px 20px;
+            }
+        }
+    }
+}

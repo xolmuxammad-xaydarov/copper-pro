@@ -1,0 +1,82 @@
+@import '../../../sass/variables.scss';
+
+.about{
+    a{
+        text-decoration: none;
+        color: $darkBlack;
+    }
+    P{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 96.4%;
+        color: $darkBlack;
+        cursor: pointer;
+        b{
+            font-weight: 600;
+            cursor: auto;
+        }
+    }
+    &-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-left{
+            h1{
+                color: $darkBlack;
+                font-weight: 600;
+                font-size: 100px;
+                position: relative;
+                &::after{
+                    content: '';
+                    width: 80%;
+                    height: 2px;
+                    background-color: $darkBlack;
+                    position: absolute;
+                    bottom: -40px;
+                    left: 0;
+                }
+            }
+            h3{
+                background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                font-weight: 400;
+                font-size: 50px;
+                line-height: 96.4%;
+                margin-top: 100px;
+                width: 500px;
+                sub{
+                    margin-left: 20px;
+                    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                }
+                sup{
+                    margin-right: 20px;
+                    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                }
+            }
+            div{
+                display: flex;
+                align-items: center;
+                margin-top: 30px;
+                width: 10px;
+                b{
+                    font-weight: 900;
+                    font-size: 30px;
+                    line-height: 96.4%;
+                    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+}

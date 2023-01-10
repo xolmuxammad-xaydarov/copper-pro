@@ -1,0 +1,35 @@
+@import '../../../sass/variables.scss';
+
+.wealth{
+    &-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 100px;
+        &-right{
+            div{
+                margin-top: 60px;
+                b{
+                    margin-left: 30px;
+                }
+            }
+            width: 100%;
+            margin-left: 30px;
+            h2{
+                font-weight: 400;
+                font-size: 50px;
+                line-height: 105.9%;
+                color: $darkBlack;
+                width: 240px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 124.9%;
+                color: $darkBlack;
+                width: 485px;
+                margin-top: 40px;
+            }
+        }
+    }
+}

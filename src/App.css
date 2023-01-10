@@ -6,3 +6,13 @@
   width: 1920px;
   margin: 0 auto;
 }
+
+body{
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Electrolize', sans-serif;
+}
+
+.containerM{
+  width: 1600px;
+  margin: 0 auto;
+}

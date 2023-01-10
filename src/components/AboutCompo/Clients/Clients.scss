@@ -1,0 +1,51 @@
+@import '../../../sass/variables.scss';
+
+.clients{
+    &-div{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+        &-left{
+            b{
+                color: $darkBlack;
+                font-weight: 400;
+                font-size: 50px;
+                line-height: 105.9%;
+                display: flex;
+                flex-wrap: wrap;
+                width: 10px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 124.9%;
+                color: $darkBlack;
+                width: 500px;
+                width: 500px;
+                margin-top: 20px;
+            }
+        }
+        &-right{
+            b{
+                font-weight: 900;
+                font-size: 50px;
+                line-height: 96.4%;
+                background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            p{
+                background: url('../../../assets/images/fillColor.png');
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                font-weight: 800;
+                font-size: 250px;
+                line-height: 96.4%;
+                margin-top: 25px;
+                color: rgba(0, 0, 0, 0.3);
+            }
+        }
+    }
+}

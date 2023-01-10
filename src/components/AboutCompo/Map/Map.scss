@@ -1,0 +1,33 @@
+@import '../../../sass/variables.scss';
+.containerM{
+    width: 1600px;
+    margin: 0 auto;
+}
+.footer{
+    padding: 100px;
+    &-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h3{
+            width: 10px;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 105.9%;
+            color: $darkBlack;
+        }
+        p{
+            width: 360px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 124.9%;
+            margin-top: 38px;
+            color: $darkBlack;
+        }
+        iframe{
+            width: 800px;
+            height: 500px;
+            border-radius: 10%;
+        }
+    }
+}
