@@ -9,13 +9,13 @@ import inst from '../../assets/images/Group 83.svg';
 function Footer() {
   return (
     <div className='footer'>
-      <div className="container">
-        <div>
+      <div className="container footer__df">
+        <div className='footer__left'>
           <Link to='/'><img src={logo} alt="" /></Link>
           <p>© 2021 “Copper Pro” <br/>Все права защищенны</p>
           <a href="/">Политика конфиденциальности</a>
         </div>
-        <div>
+        <div className='footer__right'>
           <ul>
             <b>Навигация</b>
             <li>Каталог</li>
@@ -24,7 +24,7 @@ function Footer() {
             <li>О нас</li>
             <li>Контакты</li>
           </ul>
-          <ul>
+          <ul className='catalog__list_f'>
             <b>Каталог</b>
             <li>Для эфирных масел</li>
             <li>Для гидролатов</li>
@@ -38,7 +38,7 @@ function Footer() {
             <li>Бажана 8-Б, Киев, 02132 Украина</li>
             <li>+38 (096) 990 67 56</li>
             <li>a.alambik@gmail.com</li>
-            <div>
+            <div className='social_m'>
               <img src={twitter} alt="" /><img src={face} alt="" /><img src={inst} alt="" />
             </div>
           </ul>
