@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+.App{
+  
+
+    .container{
+
+        width: 1399px;
+        margin: 0 auto;
+        // border: 1px solid red;
+        #katalog1{
+            span{
+                
+                font-weight: bold;
+
+            }
+        }
+        #katalog2{
+            font-family: 'Lighthaus';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            margin-bottom: 31px;
+            color: #031412;
+        }
+        #cards_one_wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            overflow: hidden;
+            #card{
+                cursor: pointer;
+                overflow: hidden;
+                width: 327px;
+                height: 147px;
+
+                p{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 20px;
+                    line-height: 96.4%;
+                    text-align: center;
+                    color: #FFFFFF;
+                    text-align: center;
+                    transform: translateY(-40px);
+                }
+                img{
+                    width: 327px;
+                    height: 147px;
+                    object-fit: cover;
+                }&:hover{
+                    
+                    opacity: 0.5 ;
+                    transition: 0.4s;
+                    
+                }
+            }
+        }
+        .search_wrapper{
+            margin-top: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+                #inp{
+                    color: #031412;
+                    width: 210px;
+                    height: 29px;
+                    border: none;
+                    border-bottom: 1px solid #031412;
+                    
+                }
+                .fa-magnifying-glass{
+                    transform: translateX(-15px);
+                    
+                }
+                    span{
+                        
+                        font-weight: bold;
+        
+                    }
+        }
+        .cards__wrapper_two{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .heart{
+                
+                transform: translateY(92px);
+                margin-left: 400px;
+                padding-top: 2%;
+                text-align: center;
+                font-size: 30px;
+                width: 50px;
+                height: 63px;
+                background: #ffffff;
+                cursor: pointer;
+                .fa-heart:active{
+                    background-color: red;
+                    color: red;
+                }
+            }
+            img{
+                margin-top: 30px;
+                width: 446px;
+                height: 491px;
+                object-fit: cover;
+                
+            }
+            .img_text{
+                margin-top: 10px;
+                width: 446px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                p{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 30px;
+                    line-height: 96.4%;
+                }
+                div{
+                    width: 257px;
+                    height: 38px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+            }
+        }
+        
+        .slider__wrapper1{
+            width: 273px;
+            height: 48px;
+            margin: 56px  auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            div{
+                cursor: pointer;
+                color: #909695;;
+                text-align: center;
+                font-size: 30px;
+                width: 38px;
+                height: 48px;
+                border: 1px solid #B3B9B8;;
+                
+            }
+        }
+    }
+
+
+}
