@@ -12,11 +12,17 @@ function About() {
   return (
     <h1>
       <div className="bg">
-          <Head/>
+        <div className='container'>
+         <Head/>
+        </div>
       </div>
-        <Clients/>
+        <div className='container'>
+          <Clients/>
+        </div>
         <div className="bgD">
-          <History/>
+          <div className="container">
+           <History/>  
+          </div>
         </div>
         <div className="bg">
           <Map/>

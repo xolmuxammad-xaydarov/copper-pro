@@ -4,6 +4,7 @@
     a{
         text-decoration: none;
         color: $darkBlack;
+        font-size: 18px;
     }
     P{
         font-weight: 400;
@@ -18,7 +19,8 @@
     }
     &-div{
         display: flex;
-        align-items: center;
+        // align-items: center;
+        margin-top: 40px;
         justify-content: space-between;
         &-left{
             h1{
