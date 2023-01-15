@@ -3,7 +3,6 @@ import './App.css';
 import Header from './components/header/Header';
 import Catalog from './pages/catalog/Catalog';
 import News from './pages/news/News';
-import Order from './pages//order/Order';
 import About from './pages/about/About';
 import Contact from './pages/profile/Profile';
 import Home from './pages/home/Home';
@@ -17,7 +16,6 @@ function App() {
        <Route path='/' element={<Home />}/>
         <Route path='/catalog' element={<Catalog />}/>
         <Route path='/news' element={<News />}/>
-        <Route path='/order' element={<Order />}/>
         <Route path='/about' element={<About />}/>
         <Route path='/contact' element={<Contact />}/>
       </Routes>

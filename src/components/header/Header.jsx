@@ -18,9 +18,9 @@ function Header() {
             <ul>
               <li><Link to="/catalog">Каталог</Link></li>
               <li><Link to="/news">Новости</Link></li>
-              <li><Link to="/order">Доставка</Link></li>
+              <li>Доставка</li>
               <li><Link to="/about">О нас</Link></li>
-              <li><Link to="/contact">Контакты</Link></li>
+              <li>Контакты</li>
             </ul>
           </nav>
         </div>
